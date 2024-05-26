@@ -1,23 +1,46 @@
 html {
 	font-size: 62.5%;
+	width: 100%;
+	height: 100%;
 }
 
 .heading {
-	font-size: 5rem;
+	font-size: 3.5rem;
 	text-align: center;
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 399;
+	font-style: normal;
 }
 
-.form {
+.flex-container {
+	height: 100%;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .Label {
-	font-size: 2.5rem;
-	margin: 1rem;
+	font-size: 2rem;
+	margin: 0rem;
 }
 
 .date {
-	
+	width: 11rem;
+	padding: 12px;
+	font-size: 1.5rem;
+	margin: 20px;
+
+}
+
+.but-submit {
+	color: white;
+	padding: 10px;
+	background-color: black;
+	border-radius: 20px;
+}
+
+
+.age-div {
+	font-size: 20px;
 }

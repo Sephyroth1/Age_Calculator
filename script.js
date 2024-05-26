@@ -9,6 +9,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		const curYear = curDate.getFullYear();
 		const age = curYear - bYear;
 		const div = document.querySelector("div.age-div");
-		div.textContent = age;
+		div.textContent = "You are " + age + " years old";
 	});
 });
